@@ -1,0 +1,59 @@
+.header {
+	background-color: white;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo_div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 600px;
+}
+.logo_img{
+	width: 110px;
+	height: 24px;
+	margin-left: 13px;
+}
+
+.header button {
+	cursor: pointer;
+	color: black;
+	background-color: white;
+	border: 0px;
+	background-color: transparent;
+	font-size: 16px;
+}
+
+.login_trello {
+	display: flex;
+	align-items: center;
+}
+.log_in {
+	padding-top: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	margin-right: 10px;
+	font-size: 19px;
+	color: black;
+	width: 60px;
+	height: 40px;
+}
+.log_in:hover{
+	background-color: rgb(223, 217, 217);
+	border-radius: 10px;
+}
+.get_trello {
+	width: 204px;
+	height: 46px;
+	background-color: blue;
+	color: white;
+	font-size: 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	padding: 15px 0 0 24px;
+	cursor: pointer;
+}
+.get_trello:hover{
+	background-color: rgb(18, 18, 160);
+}
